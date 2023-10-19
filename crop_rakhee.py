@@ -19,8 +19,8 @@ from streamlit_option_menu import option_menu
 
 
 # File paths
-Crop_recommandation_model_path = 'C:/Users/91900/Desktop/crop/model.sav'
-Fertilizer_recommandation_model_path = 'C:/Users/91900/Desktop/crop/classifier1.sav'
+Crop_recommandation_model_path = 'model.sav'
+Fertilizer_recommandation_model_path = 'classifier1.sav'
 
 # Load models
 Crop_recommandation_model = pickle.load(open(Crop_recommandation_model_path, 'rb'))
