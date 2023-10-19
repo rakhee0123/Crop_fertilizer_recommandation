@@ -6,11 +6,7 @@ Created on Mon Oct 16 23:31:40 2023
 """
 
 # -*- coding: utf-8 -*-
-"""
-Spyder Editor
 
-This is a temporary script file.
-"""
 import pickle
 import streamlit as st
 from streamlit_option_menu import option_menu
